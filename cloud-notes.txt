@@ -1,0 +1,20 @@
+SaaS(Software as a service)
+PaaS(Platform as a service)
+IaaS(Infrastructure as a service)
+
+Compute Services
+EC2(Elastic Cloud Compute)
+EBS(Elastic Bean Stalk)
+Serverless(Lambda)
+ECS(Elastic Container Service)
+EKS(Elastic Kubernetes Service)
+Amplify
+
+EC2 is a IaaS service, requires manual configurations of the infrastructure management, and charges are being charged even if the machine is not in use but more control is available.
+EBS is a PaaS service, which provides a layer of abstraction over EC2 services.
+Amplify provides a lot of abstraction over EC2. Integrates seamlessly with Serverless backend and a lot of frontend frameworks like React, Flutter, Angular, Vue, etc. are supported by Amplify and payment need to be done based on the consumption of the resources. It also provides a CI/CD service.
+Vercel is also built on PaaS model.
+
+Difference between deployment and hosting
+Both are closely related concepts but deployment is the earlier stage of hosting, where the developed application is configured, the servers and databases are configured and  the environment is being set of own servers or cloud servers.
+Hosting is the next step of deployment and it involves making the application publicly available to the users.
